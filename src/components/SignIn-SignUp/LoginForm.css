@@ -1,0 +1,24 @@
+.wrapper{
+    height: 100vh;
+}
+.login {
+    width: 300px;
+    padding: 20px;
+    height: min-content;
+    border-radius: 5px;
+    color: black;
+    background-color: aliceblue;
+}
+.log-in {
+    margin-right: 2cm;
+}
+.shoppy-color{
+    color: #bf4800
+}
+
+#user-category{
+    height: 38px;
+    border-radius: 6px;
+    width: 240px;
+    border-color: #198754;
+}
