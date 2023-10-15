@@ -39,24 +39,47 @@ function Login(){
     async function SignIn(event){
         try{
             const response = await axios.post("http://ecomm-usr-mgmt.ap-south-1.elasticbeanstalk.com/api/v1/user/login", {
-            email: email,
-            password: password,
-            }).then(res => 
-                {
-                    console.log(res.data);
-                    if(res.data.message === "Login failed: User not found"){
-                        alert("User not found")
-                    }
-                })
+                
+                email: email,
+                password: password,
+            })
+            
             if(response.status === 200) {
                 alert("Successfully signin")
                 navigate('/');
             }
+            else if (response.status === "400"){
+                alert("Login failed: Incorrect password")
+            }
         }
+   
         catch{
-            alert("Please enter values for sign in")
+                alert("Please enter values for sign in") 
         }
     }
+
+    // async function SignIn(event){
+    //     try{
+    //         const response = await axios.post("http://ecomm-usr-mgmt.ap-south-1.elasticbeanstalk.com/api/v1/user/login", {
+                
+    //             email: email,
+    //             password: password,
+    //         }).then(res => 
+    //             {
+    //                 console.log(res.data);
+    //                 if(res.data.message === "Login failed: User not found"){
+    //                     alert("User not found")
+    //                 }
+    //             })
+    //         if(response.status === 200) {
+    //             alert("Successfully signin")
+    //             navigate('/');
+    //         }
+    //     }
+    //     catch{
+    //         alert("Please enter values for sign in")
+    //     }
+    // }
     
 
 
@@ -116,7 +139,7 @@ function Login(){
                         
                     }
 
-                    <div className='form-group was-validated mb-2'>
+                 <div className='form-group was-validated mb-2'>
                         <label htmlFor="email">
                             Email Address
                             <input 
@@ -134,7 +157,7 @@ function Login(){
                         <div className="invalid-feedback">
                             Please Enter your email
                         </div>
-                    </div>
+                    </div>   
                     
                     {action === "SignIn" 
                         ? 
@@ -196,6 +219,7 @@ function Login(){
                         "btn btn-secondary block w-100 mt-2 log-in" : 
                         "submit btn btn-success block w-100 mt-2 log-in"}
                         onClick={()=>{setAction("SignUp");
+                            
                                        SignUp() }}
                     >
                     SIGN UP
