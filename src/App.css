@@ -722,3 +722,14 @@ footer .input-group-text{
   color: var(--color-1c1c1b);
 }
 /* Cart page Ends here ===================================================*/
+
+/* Shipping Page  */
+  .total{
+    font-size: 16px;
+    color: var(--color-1c1c1b);
+  }
+  .total-price{
+    font-size: 16px;
+    color: var(--color-777777);
+  }
+/* Shipping Page Ends here */

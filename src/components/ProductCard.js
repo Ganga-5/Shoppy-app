@@ -12,9 +12,9 @@ export const ProductCard = (props) => {
       <div className={`${location.pathname === '/store' ? `gr-${grid}` : "col-3"}`}>
         <Link to={':id'} className='product-card position-relative'>
           <div className='wishlist-icon position-absolute'>
-            <Link>  
+            <button className='border-0 bg-transparent'>  
               <img src='../../images/wish.svg' alt='whishlist' />
-            </Link>
+            </button>
           </div>
           <div className='product-image'>
             <img src='../../images/watch.jpg' className='img-fluid' alt='product image' />
@@ -42,25 +42,25 @@ export const ProductCard = (props) => {
           </div>
           <div className='action-bar position-absolute'>
             <div className='d-flex flex-column gap-15'>
-              <Link>
+              <button className='border-0 bg-transparent'>
                 <img src='../../images/prodcompare.svg' alt='compare' />
-              </Link>
-              <Link>
+              </button>
+              <button className='border-0 bg-transparent'>
                 <img src='../../images/view.svg' alt='view' />
-              </Link>
-              <Link>
+              </button>
+              <button className='border-0 bg-transparent'>
                 <img src='../../images/add-cart.svg' alt='addcart' />
-              </Link>
+              </button>
             </div>
           </div>
         </Link>
       </div>
       <div className={`${location.pathname === '/store' ? `gr-${grid}` : "col-3"}`}>
-        <Link className='product-card position-relative'>
+        <Link  to={':id'} className='product-card position-relative'>
           <div className='wishlist-icon position-absolute'>
-            <Link>  
+            <button className='border-0 bg-transparent'>  
               <img src='../../images/wish.svg' alt='whishlist' />
-            </Link>
+            </button>
           </div>
           <div className='product-image'>
             <img src='../../images/watch.jpg' className='img-fluid' alt='product image' />
@@ -88,15 +88,15 @@ export const ProductCard = (props) => {
           </div>
           <div className='action-bar position-absolute'>
             <div className='d-flex flex-column gap-15'>
-              <Link>
+              <button className='border-0 bg-transparent'>
                 <img src='../../images/prodcompare.svg' alt='compare' />
-              </Link>
-              <Link>
+              </button>
+              <button className='border-0 bg-transparent'>
                 <img src='../../images/view.svg' alt='view' />
-              </Link>
-              <Link>
+              </button>
+              <button className='border-0 bg-transparent'>
                 <img src='../../images/add-cart.svg' alt='addcart' />
-              </Link>
+              </button>
             </div>
           </div>
         </Link>
