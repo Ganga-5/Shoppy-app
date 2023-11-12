@@ -4,7 +4,7 @@ import './LoginForm.css'
 import axios from "axios";
 import { Navigate, useNavigate } from "react-router-dom";
 
-function Login(){
+function Logins(){
 
     const [action, setAction] = useState("SignIn")
 
@@ -32,7 +32,7 @@ function Login(){
             }
         }
         catch{
-            alert("Please enter values for sign up")
+            alert("Please enter values for Sign Up")
         }
     }
 
@@ -231,4 +231,4 @@ function Login(){
     
 }
 
-export default Login;
+export default Logins;
