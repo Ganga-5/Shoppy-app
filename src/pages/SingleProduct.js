@@ -7,6 +7,7 @@ import ReactImageZoom from 'react-image-zoom';
 import {Color} from '../components/Color';
 import { TbGitCompare } from 'react-icons/tb';
 import { AiOutlineHeart} from 'react-icons/ai';
+import { Container } from '../components/Container';
 
 export const SingleProduct = () => {
 
@@ -37,8 +38,7 @@ export const SingleProduct = () => {
       <>
         <Meta title={'Product Name'} />
         <BreadCrumb title="Product Name" />
-        <div className='main-product-wrapper py-5 home-wrapper-2'>
-            <div className='container-xxl'>
+        <Container class1='main-product-wrapper py-5 home-wrapper-2'>
                 <div className='row'>
                     <div className='col-6'>
                       <div className='main-product-image'>
@@ -201,31 +201,27 @@ export const SingleProduct = () => {
                       </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div className='description-wrapper py-5 home-wrapper-2'>
-          <div className='container-xxl'>
-            <div className='row'>
-              <div className='col-12'>
-                <h4>Description</h4>
-                <div className='bg-white p-3'>
-                  <p>
-                    You're only as good as your last collection, which
-                    enormous pressure. I think there is something about luxury -
-                    it's not something people need, but it's what they want. It
-                    really pulls at their heart. I have a fantastic relationship
-                    with money. Scelerisque sociosqu ullamcorper urna nisl mollis
-                    vestiblum pretium commodo inceptos cum condimentum placerat
-                    diam venenatis blandit hac eget dis lacus a parturient a 
-                    accumsan nisl ante vestiblum.
-                  </p>
-                </div>
+        </Container>
+        <Container class1='description-wrapper py-5 home-wrapper-2'>
+          <div className='row'>
+            <div className='col-12'>
+              <h4>Description</h4>
+              <div className='bg-white p-3'>
+                <p>
+                  You're only as good as your last collection, which
+                  enormous pressure. I think there is something about luxury -
+                  it's not something people need, but it's what they want. It
+                  really pulls at their heart. I have a fantastic relationship
+                  with money. Scelerisque sociosqu ullamcorper urna nisl mollis
+                  vestiblum pretium commodo inceptos cum condimentum placerat
+                  diam venenatis blandit hac eget dis lacus a parturient a 
+                  accumsan nisl ante vestiblum.
+                </p>
               </div>
             </div>
           </div>
-        </div>
-        <section className='reviews-wrapper home-wrapper-2'>
-          <div className='container-xxl'>
+        </Container>
+        <Container class1='reviews-wrapper home-wrapper-2'>
             <div className='row'>
               <div className='col-12'>
                 <h3 id='review'>Reviews</h3>
@@ -305,18 +301,15 @@ export const SingleProduct = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <section className='popular-wrapper py-5 home-wrapper-2'>
-          <div className='container-xxl'>
-            <div className='row'>
-              <div className='col-12'>
-                <h3 className='section-heading'>Our popular Products</h3>
-              </div>
-              <ProductCard />
+        </Container>
+        <Container class1='popular-wrapper py-5 home-wrapper-2'>
+          <div className='row'>
+            <div className='col-12'>
+              <h3 className='section-heading'>Our popular Products</h3>
             </div>
+            <ProductCard />
           </div>
-        </section>
+        </Container>
       </>
   )
 }
