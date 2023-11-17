@@ -40,7 +40,7 @@ export const OurStore = () => {
                         value={''}
                         id=''
                       />
-                      <label className='form-check-label' htmlFor=''>
+                      <label className='form-check-label'>
                         In Stock (1)
                       </label>
                     </div>
@@ -51,7 +51,7 @@ export const OurStore = () => {
                         value={''}
                         id=''
                       />
-                      <label className='form-check-label' htmlFor=''>
+                      <label className='form-check-label'>
                         Out of Stock (0)
                       </label>
                     </div>
@@ -88,7 +88,7 @@ export const OurStore = () => {
                         className='form-check-input'
                         type='checkbox'
                         value={'color-1'}
-                        id=''
+                        id='color-1'
                       />
                       <label className='form-check-label' htmlFor='color-1'>
                         S (1)
@@ -98,7 +98,7 @@ export const OurStore = () => {
                       <input
                         className='form-check-input'
                         type='checkbox'
-                        value={''}
+                        value={'color-2'}
                         id='color-2'
                       />
                       <label className='form-check-label' htmlFor='color-2'>
@@ -182,9 +182,9 @@ export const OurStore = () => {
                     >
                     Sort By:
                     </p>
-                    <select name='' className='form-control form-select' id=''>
+                    <select name='' defaultValue={'best-selling'} className='form-control form-select' id=''>
                       <option value={'manual'}>Featured</option>
-                      <option value={'best-selling'} selected='selected'>Best selling</option>
+                      <option value={'best-selling'} disabled >Best selling</option>
                       <option value={'title-ascending'}>Alphabetically, A-Z</option>
                       <option value={'title-descending'}>Alphabetically, Z-A</option>
                       <option value={'price-ascending'}>Price, low to high</option>
