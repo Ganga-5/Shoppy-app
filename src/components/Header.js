@@ -117,7 +117,7 @@ export const Header = () => {
                       aria-labelledby="dropdownMenuButton1"
                     >
                       <li>
-                        <Link className="dropdown-item text-white" to="">Action</Link>
+                        <Link className="dropdown-item text-white" to="/login-details">User Details</Link>
                       </li>
                       <li>
                         <Link className="dropdown-item text-white" to="">Another action</Link>

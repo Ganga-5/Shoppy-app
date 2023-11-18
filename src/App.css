@@ -572,6 +572,10 @@ footer .input-group-text{
   background-color: var(--color-131921);
   color: white;
 }
+.error{
+  color: red;
+  font-size: 14px;
+}
 /* auth or Login Card Ends here ============================================*/
 
 /* Policy pages =========================================================*/
