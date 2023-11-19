@@ -117,13 +117,19 @@ export const Header = () => {
                       aria-labelledby="dropdownMenuButton1"
                     >
                       <li>
-                        <Link className="dropdown-item text-white" to="/login-details">User Details</Link>
+                        <Link className="dropdown-item text-white" to="/watch">Watches</Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item text-white" to="">Another action</Link>
+                        <Link className="dropdown-item text-white" to="/laptop">Laptop</Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item text-white" to="">Something else here</Link>
+                        <Link className="dropdown-item text-white" to="/smart-tv">Smart TV</Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to="/camera">Camera</Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to="/mobile">Mobile</Link>
                       </li>
                     </ul>
                   </div>

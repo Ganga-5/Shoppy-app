@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { base_url } from '../../Utils/base_url';
+import { base_url} from '../../Utils/base_url';
 
 const register = async(userData) => {
     const response = await axios.post(`${base_url}user/signup`, userData);
@@ -8,6 +8,7 @@ const register = async(userData) => {
     }
     return response.data;
 };
+
 
 const authService = {
     register,

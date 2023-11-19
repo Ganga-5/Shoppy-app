@@ -50,7 +50,7 @@ export const Home = () => {
                 />
                 <div className='small-banner-content position-absolute'>
                   <h4>NEW ARRIVAL</h4>
-                  <h5>Buy iPad Air</h5>
+                  <h5>Smart watch</h5>
                   <p>From $1699.00 or <br />$64.62/mo.</p>
                 </div>
               </div>
@@ -62,7 +62,7 @@ export const Home = () => {
                 />
                 <div className='small-banner-content position-absolute'>
                   <h4>BEST SALE</h4>
-                  <h5>Laptops Max</h5>
+                  <h5>Buy iPad Air</h5>
                   <p>From $999.00 or <br />$41.62/mo.</p>
                 </div>
               </div>
@@ -74,7 +74,7 @@ export const Home = () => {
                 />
                 <div className='small-banner-content position-absolute'>
                   <h4>BEST SALE</h4>
-                  <h5>Laptops Max</h5>
+                  <h5>Head Phones</h5>
                   <p>From $999.00 or <br />$41.62/mo.</p>
                 </div>
               </div>
@@ -107,59 +107,59 @@ export const Home = () => {
             <div className='categories d-flex flex-wrap justify-content-between align-items-center'>
               <div className='d-flex gap align-items-center'>
                 <div>
-                  <h6>Music & Gaming</h6>
-                  <p>10 Items</p>
+                  <h6>Laptop</h6>
+                  <p>8 Items</p>
                 </div>
-                <img src='../../images/camera.jpg' alt='camera' />
+                <img src='../../images/laptop.jpg' alt='camera' />
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
                   <h6>Camera</h6>
-                  <p>10 Items</p>
+                  <p>12 Items</p>
                 </div>
-                <img src='../../images/camera.jpg' alt='camera' />
+                <img src='https://m.media-amazon.com/images/I/41x9HGBS7FL._SY300_SX300_QL70_FMwebp_.jpg' className='img-fluid w-50' alt='camera' />
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
                   <h6>Smart TV</h6>
                   <p>10 Items</p>
                 </div>
-                <img src='../../images/tv.jpg' alt='tv' />
+                <img src='https://m.media-amazon.com/images/I/51xz0+Y1oUL._SX300_SY300_.jpg' className='img-fluid w-50' alt='tv' />
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
                   <h6>Headphones</h6>
-                  <p>10 Items</p>
+                  <p>5 Items</p>
                 </div>
-                <img src='../../images/headphone.jpg' alt='headphone' />
+                <img src='../../images/headphone.jpg' className='img-fluid w-75' alt='headphone' />
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
-                  <h6>Music & Gaming</h6>
-                  <p>10 Items</p>
+                  <h6>Mobile</h6>
+                  <p>3 Items</p>
                 </div>
-                <img src='../../images/camera.jpg' alt='camera' />
+                <img src='https://m.media-amazon.com/images/I/418PZ2AjVKL._SX300_SY300_QL70_FMwebp_.jpg' className='img-fluid w-50' alt='mobile' />
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
-                  <h6>Camera</h6>
-                  <p>10 Items</p>
+                  <h6>Watch</h6>
+                  <p>12 Items</p>
                 </div>
-                <img src='../../images/camera.jpg' alt='camera' />
+                <img src='https://m.media-amazon.com/images/I/41ySRhErmUL._SX300_SY300_QL70_FMwebp_.jpg' className='img-fluid w-50' alt='watch' />
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
-                  <h6>Smart TV</h6>
-                  <p>10 Items</p>
+                  <h6>Laptop</h6>
+                  <p>7 Items</p>
                 </div>
-                <img src='../../images/tv.jpg' alt='tv' />
+                <img src='https://m.media-amazon.com/images/I/41cUw9G6-uL._SY300_SX300_QL70_FMwebp_.jpg' className='img-fluid' alt='laptop' />
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
-                  <h6>Headphones</h6>
-                  <p>10 Items</p>
+                  <h6>Speakers</h6>
+                  <p>3 Items</p>
                 </div>
-                <img src='../../images/headphone.jpg' alt='headphone' />
+                <img src='https://m.media-amazon.com/images/I/51KsXpjCTCS._SX300_SY300_QL70_FMwebp_.jpg' className='img-fluid w-50' alt='speakers' />
               </div>
             </div>
           </div>
@@ -170,8 +170,6 @@ export const Home = () => {
           <div className='col-12'>
             <h3 className='section-heading'>Featured Collection</h3>
           </div>
-          <ProductCard />
-          <ProductCard />
           <ProductCard />
           <ProductCard />
         </div>
@@ -241,9 +239,6 @@ export const Home = () => {
           </div>
           <div className='row'>
             <SpecialProduct />
-            <SpecialProduct />
-            <SpecialProduct />
-            <SpecialProduct />
           </div>
         </div>
       </Container>
@@ -252,9 +247,6 @@ export const Home = () => {
           <div className='col-12'>
             <h3 className='section-heading'>Our popular Products</h3>
           </div>
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
           <ProductCard />
         </div>
       </Container>

@@ -1,6 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 //import { fetchCount } from './counterAPI';
 import authService from './authService';
+import { toast } from 'react-toastify';
 
 const userDefaultState = {
     id: null,
@@ -37,18 +38,25 @@ export const authSlice = createSlice ({
             (state) => {
             state.isLoading = true;
         })
-        .addCase(login.fulfilled,
-            (state, action) => {
+        .addCase(login.fulfilled,(state, action) => {
             state.isLoading = false;
+            state.isError = false;
             state.isSuccess = true;
             state.user = action.payload;
+            if (state.isSuccess === true) {
+                localStorage.setItem("token",action.payload.token);
+                toast.info("Login Successfully");
+            }
         })
-        .addCase(login.rejected,
-            (state, action) => {
+        .addCase(login.rejected,(state, action) => {
             state.isLoading = false;
             state.isError = true;
             state.isSuccess = false;
             state.user = null;
+            state.message = action.error;
+            if (state.isError === true) {
+                toast.error(action.error);
+            }
         });
     },
 });

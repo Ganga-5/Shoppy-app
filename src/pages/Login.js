@@ -12,7 +12,7 @@ import {login} from '../features/auth/authSlice';
 export const Login = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
-    let schema = Yup.object().shape({
+    let loginSchema = Yup.object().shape({
         email: Yup.string()
         .email("Email Should be valid")
         .required("Email is Required"),
@@ -23,10 +23,9 @@ export const Login = () => {
             email: "",
             password: "",
         },
-        validationSchema: schema,
+        validationSchema: loginSchema,
         onSubmit: (values) => {
             dispatch(login(values))
-            alert(JSON.stringify(values, null, 2));
         },
     });
     const {user,isLoading,isError,isSuccess,message} = useSelector(

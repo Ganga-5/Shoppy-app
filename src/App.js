@@ -23,6 +23,11 @@ import { SingleProduct } from './pages/SingleProduct';
 import { Cart } from './pages/Cart';
 import { Checkout } from './pages/Checkout';
 import { LoginDetails } from './pages/LoginDetails';
+import {Watches} from './pages/Watches';
+import { Laptop } from './pages/Laptop';
+import { Camera } from './pages/Camera';
+import { SmartTv } from './pages/SmartTv';
+import { Mobile } from './pages/Mobile';
 
 function App() {
   return (
@@ -34,6 +39,11 @@ function App() {
           <Route path='about' element={<About />} />
           <Route path='contact' element={<Contact />} />
           <Route path='product' element={<OurStore />} />
+          <Route path='watch' element={<Watches />} />
+          <Route path='laptop' element={<Laptop />} />
+          <Route path='camera' element={<Camera />} />
+          <Route path='smart-tv' element={<SmartTv />} />
+          <Route path='mobile' element={<Mobile />} />
           <Route path='product/:id' element={<SingleProduct />} />
           <Route path='blogs' element={<Blog />} />
           <Route path='blog/:id' element={<SingleBlog />} />
@@ -53,6 +63,7 @@ function App() {
         
       </Routes>
     </BrowserRouter>
+    
   );
 }
 

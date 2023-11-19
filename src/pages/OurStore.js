@@ -1,11 +1,14 @@
-import React from 'react'
-import { BreadCrumb } from '../components/BreadCrumb'
-import { Meta } from '../components/Meta'
+import React from 'react';
+import { BreadCrumb } from '../components/BreadCrumb';
+import { Meta } from '../components/Meta';
 import ReactStars from "react-rating-stars-component";
 import {ProductCard} from '../components/ProductCard'
 import { useState } from 'react';
 import { Color } from '../components/Color';
 import { Container } from '../components/Container';
+import { Link } from 'react-router-dom';
+import { Watches } from './Watches';
+
 export const OurStore = () => {
 
   const [grid, setGrid] = useState(4);
@@ -21,10 +24,11 @@ export const OurStore = () => {
                 <h3 className='filter-title'>Shop By Categories</h3>
                 <div>
                   <ul className='ps-0'>
-                    <li>Watch</li>
-                    <li>TV</li>
-                    <li>Camera</li>
-                    <li>Laptop</li>
+                    <li><Link className='text-dark' to={'/watch'}>Watch</Link></li>
+                    <li><Link className='text-dark' to={'/laptop'}>Laptop</Link></li>
+                    <li><Link className='text-dark' to={'/camera'}>Camera</Link></li>
+                    <li><Link className='text-dark' to={'/smart-tv'}>smart TV</Link></li>
+                    <li><Link className='text-dark' to={'/mobile'}>Mobile</Link></li>
                   </ul>
                 </div>
               </div>
@@ -153,7 +157,7 @@ export const OurStore = () => {
                   </div>
                   <div className='random-products d-flex'>
                     <div className='w-50'>
-                      <img src='../../images/watch.jpg' className='img-fluid' alt='watch' />
+                      <img src='../../images/laptop.jpg' className='img-fluid' alt='watch' />
                     </div>
                     <div className='w-50'>
                       <h5>
@@ -234,6 +238,8 @@ export const OurStore = () => {
               </div>
               <div className='products-list pb-5'>
                 <div className='d-flex gap-10 flex-wrap'>
+                  <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
                   <ProductCard grid={grid} />
                 </div>
               </div>
