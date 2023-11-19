@@ -131,6 +131,12 @@ export const Header = () => {
                       <li>
                         <Link className="dropdown-item text-white" to="/mobile">Mobile</Link>
                       </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to="/headphones">Headphones</Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to="/speaker">Speakers</Link>
+                      </li>
                     </ul>
                   </div>
                 </div>

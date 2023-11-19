@@ -3,25 +3,21 @@ import { BreadCrumb } from '../components/BreadCrumb';
 import { Meta } from '../components/Meta';
 import { Container } from '../components/Container';
 
-export const RefundPolicy = () => {
+export const AboutUs = () => {
   return (
     <>
-        <Meta title={'Refund Policy'} />
-        <BreadCrumb title="Refund Policy" />
+        <Meta title={'Privacy Policy'} />
+        <BreadCrumb title="Privacy Policy" />
         <Container class1='policy-wrapper py-5 home-wrapper-2'>
-        <div className='row'>
+          <div className='row'>
             <div className='col-12'>
-                <div className='privacy-policy'>
-                    <h2 className='d-flex align-items-center'>REFUND POLICY</h2>
-                    <h5>Eligibility for Refunds and Exchanges</h5>
+                <div className='about-us'>
+                    <h2 className='d-flex align-items-center'>Who We Are and What We Do</h2>
                     <p className='d-flex align-items-center'>
-                      Disclaimer: Be sure, this article is not a substitute for professional legal advice. Also, it does not create an attorney 
-                      and client relationship. This article acts as a guide for users.<br /><br /> Having a Refund Policy can be a great asset to win over 
-                      customers from your competition, it gives them security and increases trust in your brand. However, it should be a balanced policy, 
-                      as you do not want your customers to take advantage of you.<br /><br /> To help you get started, we have created a sample Refund Policy that you 
-                      can use by inserting your relevant details and publishing it on your Website.(Store Name) Refund Policy Thank you for shopping at (Store Name)!
-                      We offer refund and/or exchange within the first 30 days of your purchase, if 30 days have passed since your purchase, you will not be offered a
-                      refund and/or exchange of any kind.
+                        BigCommerce’s mission is to help merchants sell more at every stage of growth, from small startups, to mid
+                        -market businesses, to large enterprises. As a leading Open SaaS solution, BigCommerce empowers merchants to
+                        build, innovate and grow their businesses online. Simply put, we focus on being the best commerce platform so
+                        our customers can focus on what matters most: growing their businesses.
                     </p>
                 </div>
                 <div className='about-us'>

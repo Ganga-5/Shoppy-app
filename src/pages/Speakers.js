@@ -7,14 +7,14 @@ import { Color } from '../components/Color';
 import { Container } from '../components/Container';
 import { Link } from 'react-router-dom';
 
-export const Camera = () => {
+export const Speakers = () => {
     const [grid, setGrid] = useState(4);
   return (
     <>
       <Meta title={'Our Store'} />
-      <BreadCrumb title="Our Store / Camera" />
+      <BreadCrumb title="Our Store / Speakers" />
       <Container class1='store-wrapper home-wrapper-2 py-5'>
-          <div className='row'>
+      <div className='row'>
             <div className='col-3'>
               <div className='filter-card mb-3'>
                 <h3 className='filter-title'>Shop By Categories</h3>
@@ -174,21 +174,21 @@ export const Camera = () => {
             </div>
             <div className='col-9'>
               <div className='filter-sort-grid mb-4'>
-                Camera
+                Speakers
               </div>
               <div className='row'>
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image'>
-                        <img src='https://images.pexels.com/photos/225157/pexels-photo-225157.jpeg?auto=compress&cs=tinysrgb&w=600' 
-                            className='img-fluid w-75' 
+                        <img src='https://m.media-amazon.com/images/I/418YBfJTDzL._SX300_SY300_QL70_FMwebp_.jpg' 
+                            className='img-fluid w-100' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Black Sony</h6>
+                        <h6 className='brand'>BOAT</h6>
                         <h5 className='product-title'>
-                            Canon M50 Mark II 15-45mm f3.5-6.3<br /> is STM Digital Zoom Camera<br /> (Black)
+                            boAt Stone 352 Bluetooth Speaker<br /> with 10W RMS Stereo Sound
                         </h5>
                         <ReactStars 
                             count={5} 
@@ -203,27 +203,27 @@ export const Camera = () => {
                             dolores et quas molestias excepturi sint occaecati cupiditate none
                             provident, similique sunt...
                         </p>
-                        <p className='price'>$820</p>
+                        <p className='price'>$1200</p>
                     </div>
                 </div>
                 </div>
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image m-0'>
-                        <img src='https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=600' 
+                        <img src='https://m.media-amazon.com/images/I/71p9CG-9LEL._SX679_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Nikon</h6>
+                        <h6 className='brand'>Philips</h6>
                         <h5 className='product-title'>
-                            Black And White Eos 5D Mark <br />Iv Dslr Camera (Nikon) at Best <br />Price in
+                            Philips Audio MMS2625B 32W 2.1 <br />Channel Wireless Bluetooth
                         </h5>
                         <ReactStars 
                             count={5} 
                             size={24} 
-                            value={3} 
+                            value={2} 
                             edit={false} 
                             activeColor='#ffd700' 
                         />
@@ -233,7 +233,7 @@ export const Camera = () => {
                         dolores et quas molestias excepturi sint occaecati cupiditate none
                         provident, similique sunt...
                         </p>
-                        <p className='price'>$600.0</p>
+                        <p className='price'>$950.0</p>
                     </div>
                 </div>
                 </div>
@@ -242,15 +242,15 @@ export const Camera = () => {
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image'>
-                        <img src='https://images.pexels.com/photos/2229671/pexels-photo-2229671.jpeg?auto=compress&cs=tinysrgb&w=600' 
+                        <img src='https://m.media-amazon.com/images/I/71KkKkxNAbL._SX679_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Canon</h6>
+                        <h6 className='brand'>Infinity</h6>
                         <h5 className='product-title'>
-                            Canon Z5 Mirrorless DSLR Camera<br /> (24-200MM Lens)
+                            Infinity JBL Fuze Pint, Wireless<br /> Ultra Portable Mini Speaker <br />with Mic
                         </h5>
                         <ReactStars 
                             count={5} 
@@ -265,22 +265,22 @@ export const Camera = () => {
                             dolores et quas molestias excepturi sint occaecati cupiditate none
                             provident, similique sunt...
                         </p>
-                        <p className='price'>$440.0</p>
+                        <p className='price'>$2100.0</p>
                     </div>
                 </div>
                 </div>
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image'>
-                        <img src='https://images.pexels.com/photos/433098/pexels-photo-433098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' 
+                        <img src='https://m.media-amazon.com/images/I/71gNS1OH3qL._SX679_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Leica</h6>
+                        <h6 className='brand'>JBL</h6>
                         <h5 className='product-title'>
-                            Leica Instax Mini 12 Instant<br /> Camera-Pink
+                            JBL Go 2, Wireless Portable <br />Bluetooth Speaker with Mic
                         </h5>
                         <ReactStars 
                             count={5} 
@@ -295,7 +295,7 @@ export const Camera = () => {
                         dolores et quas molestias excepturi sint occaecati cupiditate none
                         provident, similique sunt...
                         </p>
-                        <p className='price'>$600.0</p>
+                        <p className='price'>$1600.0</p>
                     </div>
                 </div>
                 </div>
@@ -304,15 +304,15 @@ export const Camera = () => {
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image'>
-                        <img src='https://images.pexels.com/photos/159442/sony-lens-walimex-camera-159442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' 
+                        <img src='https://m.media-amazon.com/images/I/61oSoHc7VtL._SX679_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Nikon</h6>
+                        <h6 className='brand'>BOAT</h6>
                         <h5 className='product-title'>
-                            Nikon Z50 Mirroless Camera Body<br /> with NIKKOR Z DX 16-50mm f/3.5-6.3 VR <br />& NIKKOR Z DX 50-250mm<br /> f/4.5-6.3 VR
+                            boAt Stone 620 Bluetooth Speaker<br /> with 12W RMS Stereo Sound
                         </h5>
                         <ReactStars 
                             count={5} 
@@ -327,22 +327,22 @@ export const Camera = () => {
                             dolores et quas molestias excepturi sint occaecati cupiditate none
                             provident, similique sunt...
                         </p>
-                        <p className='price'>$670.0</p>
+                        <p className='price'>$5000.0</p>
                     </div>
                 </div>
                 </div>
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image m-0'>
-                        <img src='https://images.pexels.com/photos/2183972/pexels-photo-2183972.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' 
+                        <img src='https://m.media-amazon.com/images/I/71G5dQ17zbL._SX679_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Fujifilm</h6>
+                        <h6 className='brand'>Zebronics</h6>
                         <h5 className='product-title'>
-                            Fujifilm Z5 Kit 24-200 with<br /> Additional Battery, Optical <br />Zoom (Black)
+                            Zebronics Zeb-County Wireless Bluetooth Portable Speaker with Supporting Carry
                         </h5>
                         <ReactStars 
                             count={5} 
@@ -357,71 +357,9 @@ export const Camera = () => {
                             dolores et quas molestias excepturi sint occaecati cupiditate none
                             provident, similique sunt...
                         </p>
-                        <p className='price'>$620.0</p>
+                        <p className='price'>$2500.0</p>
                     </div>
                 </div>
-                </div>
-              </div>
-            </div>
-            <div className='row'>
-              <div className='col-6'>
-                  <div className='d-flex gap-10 flex-wrap'>
-                      <div className='product-image'>
-                          <img src='https://images.pexels.com/photos/433098/pexels-photo-433098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' 
-                              className='img-fluid w-75' 
-                              alt='product image' 
-                          />
-                      </div>
-                      <div className='product-details'>
-                          <h6 className='brand'>Leica</h6>
-                          <h5 className='product-title'>
-                              Leica Instax Mini 12 Instant<br /> Camera-Pink
-                          </h5>
-                          <ReactStars 
-                              count={5} 
-                              size={24} 
-                              value={5} 
-                              edit={false} 
-                              activeColor='#ffd700' 
-                          />
-                          <p className={`description ${grid === 12 ? 'd-block' : 'd-none'}`}>
-                          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                          blanditis praesentium voluptatum deleniti atque corrupti quos
-                          dolores et quas molestias excepturi sint occaecati cupiditate none
-                          provident, similique sunt...
-                          </p>
-                          <p className='price'>$600.0</p>
-                      </div>
-                  </div>
-              </div>
-              <div className='col-6'>
-                <div className='d-flex gap-10 flex-wrap'>
-                    <div className='product-image m-0'>
-                        <img src='https://images.pexels.com/photos/2183972/pexels-photo-2183972.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' 
-                            className='img-fluid w-75' 
-                            alt='product image' 
-                        />
-                    </div>
-                    <div className='product-details'>
-                        <h6 className='brand'>Fujifilm</h6>
-                        <h5 className='product-title'>
-                            Fujifilm Z5 Kit 24-200 with<br /> Additional Battery, Optical <br />Zoom (Black)
-                        </h5>
-                        <ReactStars 
-                            count={5} 
-                            size={24} 
-                            value={4} 
-                            edit={false} 
-                            activeColor='#ffd700' 
-                        />
-                        <p className={`description ${grid === 12 ? 'd-block' : 'd-none'}`}>
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditis praesentium voluptatum deleniti atque corrupti quos
-                            dolores et quas molestias excepturi sint occaecati cupiditate none
-                            provident, similique sunt...
-                        </p>
-                        <p className='price'>$620.0</p>
-                    </div>
                 </div>
               </div>
             </div>

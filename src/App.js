@@ -28,6 +28,10 @@ import { Laptop } from './pages/Laptop';
 import { Camera } from './pages/Camera';
 import { SmartTv } from './pages/SmartTv';
 import { Mobile } from './pages/Mobile';
+import { Headphones } from './pages/Headphones';
+import { Speakers } from './pages/Speakers';
+import { AboutUs } from './pages/AboutUs';
+import { FAQ } from './pages/FAQ';
 
 function App() {
   return (
@@ -44,6 +48,8 @@ function App() {
           <Route path='camera' element={<Camera />} />
           <Route path='smart-tv' element={<SmartTv />} />
           <Route path='mobile' element={<Mobile />} />
+          <Route path='headphones' element={<Headphones />} />
+          <Route path='speaker' element={<Speakers />} />
           <Route path='product/:id' element={<SingleProduct />} />
           <Route path='blogs' element={<Blog />} />
           <Route path='blog/:id' element={<SingleBlog />} />
@@ -59,6 +65,8 @@ function App() {
           <Route path='refund-policy' element={<RefundPolicy />} />
           <Route path='shipping-policy' element={<ShippingPolicy />} />
           <Route path='term-conditions' element={<TermAndConditions />} />
+          <Route path='about-us' element={<AboutUs />} />
+          <Route path='faq' element={<FAQ />} />
         </Route>
         
       </Routes>

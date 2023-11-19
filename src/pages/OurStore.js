@@ -27,7 +27,7 @@ export const OurStore = () => {
                     <li><Link className='text-dark' to={'/watch'}>Watch</Link></li>
                     <li><Link className='text-dark' to={'/laptop'}>Laptop</Link></li>
                     <li><Link className='text-dark' to={'/camera'}>Camera</Link></li>
-                    <li><Link className='text-dark' to={'/smart-tv'}>smart TV</Link></li>
+                    <li><Link className='text-dark' to={'/smart-tv'}>Smart TV</Link></li>
                     <li><Link className='text-dark' to={'/mobile'}>Mobile</Link></li>
                   </ul>
                 </div>
@@ -117,19 +117,19 @@ export const OurStore = () => {
                 <div>
                   <div className='product-tags d-flex flex-wrap align-items-center gap-10'>
                     <span className='badge bg-light text-secondary rounded-3 py-2 px-3'>
-                      Headphone
+                      <Link to={'/headphones'} className='text-secondary'>Headphone</Link>
                     </span>
                     <span className='badge bg-light text-secondary rounded-3 py-2 px-3'>
-                      Laptop
+                      <Link to={'/laptop'} className='text-secondary'>Laptop</Link>
                     </span>
                     <span className='badge bg-light text-secondary rounded-3 py-2 px-3'>
-                      Mobile
+                      <Link to={'/mobile'} className='text-secondary'>Mobile</Link>
                     </span>
                     <span className='badge bg-light text-secondary rounded-3 py-2 px-3'>
-                      Speaker
+                      <Link to={'/speaker'} className='text-secondary'>Speaker</Link>
                     </span>
                     <span className='badge bg-light text-secondary rounded-3 py-2 px-3'>
-                      Wire
+                      <Link to={'/camera'} className='text-secondary'>Camera</Link>
                     </span>
                   </div>
                 </div>

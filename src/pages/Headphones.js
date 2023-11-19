@@ -7,14 +7,14 @@ import { Color } from '../components/Color';
 import { Container } from '../components/Container';
 import { Link } from 'react-router-dom';
 
-export const Camera = () => {
+export const Headphones = () => {
     const [grid, setGrid] = useState(4);
   return (
     <>
       <Meta title={'Our Store'} />
-      <BreadCrumb title="Our Store / Camera" />
+      <BreadCrumb title="Our Store / Headphones" />
       <Container class1='store-wrapper home-wrapper-2 py-5'>
-          <div className='row'>
+      <div className='row'>
             <div className='col-3'>
               <div className='filter-card mb-3'>
                 <h3 className='filter-title'>Shop By Categories</h3>
@@ -174,21 +174,21 @@ export const Camera = () => {
             </div>
             <div className='col-9'>
               <div className='filter-sort-grid mb-4'>
-                Camera
+                Headphones
               </div>
               <div className='row'>
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image'>
-                        <img src='https://images.pexels.com/photos/225157/pexels-photo-225157.jpeg?auto=compress&cs=tinysrgb&w=600' 
+                        <img src='https://m.media-amazon.com/images/I/61u1VALn6JL._SX679_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Black Sony</h6>
+                        <h6 className='brand'>BOAT</h6>
                         <h5 className='product-title'>
-                            Canon M50 Mark II 15-45mm f3.5-6.3<br /> is STM Digital Zoom Camera<br /> (Black)
+                            boAt Rockerz 450 Bluetooth On<br /> Ear Headphones with Mic, Upto 15<br /> Hours Playback
                         </h5>
                         <ReactStars 
                             count={5} 
@@ -198,32 +198,30 @@ export const Camera = () => {
                             activeColor='#ffd700' 
                         />
                         <p className={`description ${grid === 12 ? 'd-block' : 'd-none'}`}>
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditis praesentium voluptatum deleniti atque corrupti quos
-                            dolores et quas molestias excepturi sint occaecati cupiditate none
-                            provident, similique sunt...
+                            Playback- It provides a massive battery backup of upto 15 hours for 
+                            a superior playback time.
                         </p>
-                        <p className='price'>$820</p>
+                        <p className='price'>$452</p>
                     </div>
                 </div>
                 </div>
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image m-0'>
-                        <img src='https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=600' 
+                        <img src='https://m.media-amazon.com/images/I/61C66qTqnwL._SX679_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Nikon</h6>
+                        <h6 className='brand'>SONY</h6>
                         <h5 className='product-title'>
-                            Black And White Eos 5D Mark <br />Iv Dslr Camera (Nikon) at Best <br />Price in
+                            Sony WH-CH520, Wireless On-Ear<br /> Bluetooth Headphones with Mic,<br /> Upto 50 Hours
                         </h5>
                         <ReactStars 
                             count={5} 
                             size={24} 
-                            value={3} 
+                            value={2} 
                             edit={false} 
                             activeColor='#ffd700' 
                         />
@@ -233,7 +231,7 @@ export const Camera = () => {
                         dolores et quas molestias excepturi sint occaecati cupiditate none
                         provident, similique sunt...
                         </p>
-                        <p className='price'>$600.0</p>
+                        <p className='price'>$350.0</p>
                     </div>
                 </div>
                 </div>
@@ -242,15 +240,15 @@ export const Camera = () => {
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image'>
-                        <img src='https://images.pexels.com/photos/2229671/pexels-photo-2229671.jpeg?auto=compress&cs=tinysrgb&w=600' 
+                        <img src='https://m.media-amazon.com/images/I/51UgWAwUllL._SX679_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Canon</h6>
+                        <h6 className='brand'>NOISE</h6>
                         <h5 className='product-title'>
-                            Canon Z5 Mirrorless DSLR Camera<br /> (24-200MM Lens)
+                            Noise Buds VS106 Truly Wireless <br />in-Ear Earbuds with 50H <br />Playtime
                         </h5>
                         <ReactStars 
                             count={5} 
@@ -265,22 +263,22 @@ export const Camera = () => {
                             dolores et quas molestias excepturi sint occaecati cupiditate none
                             provident, similique sunt...
                         </p>
-                        <p className='price'>$440.0</p>
+                        <p className='price'>$290.0</p>
                     </div>
                 </div>
                 </div>
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image'>
-                        <img src='https://images.pexels.com/photos/433098/pexels-photo-433098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' 
+                        <img src='https://m.media-amazon.com/images/I/5154Num4eEL._SX679_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Leica</h6>
+                        <h6 className='brand'>BOAT</h6>
                         <h5 className='product-title'>
-                            Leica Instax Mini 12 Instant<br /> Camera-Pink
+                            boAt Airdopes 170 TWS Earbuds with<br /> 50H Playtime, Quad Mics ENx™ <br /> Tech, Low
                         </h5>
                         <ReactStars 
                             count={5} 
@@ -295,7 +293,7 @@ export const Camera = () => {
                         dolores et quas molestias excepturi sint occaecati cupiditate none
                         provident, similique sunt...
                         </p>
-                        <p className='price'>$600.0</p>
+                        <p className='price'>$1600.0</p>
                     </div>
                 </div>
                 </div>
@@ -304,15 +302,15 @@ export const Camera = () => {
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image'>
-                        <img src='https://images.pexels.com/photos/159442/sony-lens-walimex-camera-159442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' 
+                        <img src='https://m.media-amazon.com/images/I/71YIuhXKkeL._SX679_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Nikon</h6>
+                        <h6 className='brand'>TOZO</h6>
                         <h5 className='product-title'>
-                            Nikon Z50 Mirroless Camera Body<br /> with NIKKOR Z DX 16-50mm f/3.5-6.3 VR <br />& NIKKOR Z DX 50-250mm<br /> f/4.5-6.3 VR
+                            TOZO T10 Bluetooth 5.3 Wireless <br />Earbuds with Wireless Charging<br /> Case IPX8
                         </h5>
                         <ReactStars 
                             count={5} 
@@ -327,22 +325,22 @@ export const Camera = () => {
                             dolores et quas molestias excepturi sint occaecati cupiditate none
                             provident, similique sunt...
                         </p>
-                        <p className='price'>$670.0</p>
+                        <p className='price'>$220.0</p>
                     </div>
                 </div>
                 </div>
                 <div className='col-6'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image m-0'>
-                        <img src='https://images.pexels.com/photos/2183972/pexels-photo-2183972.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' 
+                        <img src='https://m.media-amazon.com/images/I/61FgU7NpeFL._SY879_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Fujifilm</h6>
+                        <h6 className='brand'>iClever</h6>
                         <h5 className='product-title'>
-                            Fujifilm Z5 Kit 24-200 with<br /> Additional Battery, Optical <br />Zoom (Black)
+                            iClever BTH13 Bluetooth Kids <br />Headphones with Mic, Over <br />Ear Headphone
                         </h5>
                         <ReactStars 
                             count={5} 
@@ -357,25 +355,25 @@ export const Camera = () => {
                             dolores et quas molestias excepturi sint occaecati cupiditate none
                             provident, similique sunt...
                         </p>
-                        <p className='price'>$620.0</p>
+                        <p className='price'>$2500.0</p>
                     </div>
                 </div>
                 </div>
               </div>
             </div>
             <div className='row'>
-              <div className='col-6'>
+              <div className='col-4'>
                   <div className='d-flex gap-10 flex-wrap'>
                       <div className='product-image'>
-                          <img src='https://images.pexels.com/photos/433098/pexels-photo-433098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' 
-                              className='img-fluid w-75' 
+                          <img src='https://m.media-amazon.com/images/I/615Nba6dy4L._SY879_.jpg' 
+                              className='img-fluid w-50' 
                               alt='product image' 
                           />
                       </div>
                       <div className='product-details'>
-                          <h6 className='brand'>Leica</h6>
+                          <h6 className='brand'>Sennheiser</h6>
                           <h5 className='product-title'>
-                              Leica Instax Mini 12 Instant<br /> Camera-Pink
+                            Sennheiser Professional Audio HD <br />280 PRO Wired Over Ear <br />Headphones
                           </h5>
                           <ReactStars 
                               count={5} 
@@ -390,27 +388,57 @@ export const Camera = () => {
                           dolores et quas molestias excepturi sint occaecati cupiditate none
                           provident, similique sunt...
                           </p>
-                          <p className='price'>$600.0</p>
+                          <p className='price'>$1800.0</p>
                       </div>
                   </div>
               </div>
-              <div className='col-6'>
+              <div className='col-4'>
+                  <div className='d-flex gap-10 flex-wrap'>
+                      <div className='product-image'>
+                          <img src='https://m.media-amazon.com/images/I/41eSRlqPu+L._SY300_SX300_.jpg' 
+                              className='img-fluid w-100' 
+                              alt='product image' 
+                          />
+                      </div>
+                      <div className='product-details'>
+                          <h6 className='brand'>Sennheiser</h6>
+                          <h5 className='product-title'>
+                            Sennheiser Professional Audio HD <br />280 PRO Wired Over Ear <br />Headphones
+                          </h5>
+                          <ReactStars 
+                              count={5} 
+                              size={24} 
+                              value={5} 
+                              edit={false} 
+                              activeColor='#ffd700' 
+                          />
+                          <p className={`description ${grid === 12 ? 'd-block' : 'd-none'}`}>
+                          At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                          blanditis praesentium voluptatum deleniti atque corrupti quos
+                          dolores et quas molestias excepturi sint occaecati cupiditate none
+                          provident, similique sunt...
+                          </p>
+                          <p className='price'>$1800.0</p>
+                      </div>
+                  </div>
+              </div>
+              <div className='col-4'>
                 <div className='d-flex gap-10 flex-wrap'>
                     <div className='product-image m-0'>
-                        <img src='https://images.pexels.com/photos/2183972/pexels-photo-2183972.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' 
+                        <img src='https://m.media-amazon.com/images/I/71ZbsXKaAkL._SX679_.jpg' 
                             className='img-fluid w-75' 
                             alt='product image' 
                         />
                     </div>
                     <div className='product-details'>
-                        <h6 className='brand'>Fujifilm</h6>
+                        <h6 className='brand'>Boult</h6>
                         <h5 className='product-title'>
-                            Fujifilm Z5 Kit 24-200 with<br /> Additional Battery, Optical <br />Zoom (Black)
+                            Boult Audio Newly Launched<br /> Z20 Pro Bluetooth Truly <br />Wireless 
                         </h5>
                         <ReactStars 
                             count={5} 
                             size={24} 
-                            value={4} 
+                            value={3} 
                             edit={false} 
                             activeColor='#ffd700' 
                         />
@@ -420,7 +448,7 @@ export const Camera = () => {
                             dolores et quas molestias excepturi sint occaecati cupiditate none
                             provident, similique sunt...
                         </p>
-                        <p className='price'>$620.0</p>
+                        <p className='price'>$1850.0</p>
                     </div>
                 </div>
               </div>

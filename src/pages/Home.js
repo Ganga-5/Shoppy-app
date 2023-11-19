@@ -24,7 +24,7 @@ export const Home = () => {
                 <h4>SUPERCHARGED FOR PROS.</h4>
                 <h5>iPad S13+ Pro.</h5>
                 <p>From $999.00 or $41.62/mo.</p>
-                <Link className='button'>BUY NOW</Link>
+                <Link to={'/checkout'} className='button'>BUY NOW</Link>
               </div>
             </div>
           </div>
@@ -110,56 +110,79 @@ export const Home = () => {
                   <h6>Laptop</h6>
                   <p>8 Items</p>
                 </div>
-                <img src='../../images/laptop.jpg' alt='camera' />
+                <Link to={'/laptop'}>
+                  <img src='../../images/laptop.jpg' className='img-fluid w-100' alt='laptop' />
+                </Link>
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
                   <h6>Camera</h6>
                   <p>12 Items</p>
                 </div>
-                <img src='https://m.media-amazon.com/images/I/41x9HGBS7FL._SY300_SX300_QL70_FMwebp_.jpg' className='img-fluid w-50' alt='camera' />
+                <Link to={'/camera'}>
+                  <img 
+                    src='https://m.media-amazon.com/images/I/41x9HGBS7FL._SY300_SX300_QL70_FMwebp_.jpg' 
+                    className='img-fluid w-100' 
+                    alt='camera' 
+                  />
+                </Link>
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
                   <h6>Smart TV</h6>
                   <p>10 Items</p>
                 </div>
-                <img src='https://m.media-amazon.com/images/I/51xz0+Y1oUL._SX300_SY300_.jpg' className='img-fluid w-50' alt='tv' />
+                <Link to={'/smart-tv'}>
+                  <img 
+                    src='https://m.media-amazon.com/images/I/51xz0+Y1oUL._SX300_SY300_.jpg' 
+                    className='img-fluid w-100' 
+                    alt='tv' />
+                </Link>
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
                   <h6>Headphones</h6>
                   <p>5 Items</p>
                 </div>
-                <img src='../../images/headphone.jpg' className='img-fluid w-75' alt='headphone' />
+                <Link to={'/headphones'}>
+                  <img src='../../images/headphone.jpg' className='img-fluid w-100' alt='headphone' />
+                </Link>
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
                   <h6>Mobile</h6>
                   <p>3 Items</p>
                 </div>
-                <img src='https://m.media-amazon.com/images/I/418PZ2AjVKL._SX300_SY300_QL70_FMwebp_.jpg' className='img-fluid w-50' alt='mobile' />
+                <Link to={'/mobile'}>
+                  <img src='https://m.media-amazon.com/images/I/418PZ2AjVKL._SX300_SY300_QL70_FMwebp_.jpg' className='img-fluid w-75' alt='mobile' />
+                </Link>
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
                   <h6>Watch</h6>
                   <p>12 Items</p>
                 </div>
-                <img src='https://m.media-amazon.com/images/I/41ySRhErmUL._SX300_SY300_QL70_FMwebp_.jpg' className='img-fluid w-50' alt='watch' />
+                <Link to={'/watch'}>
+                  <img src='https://m.media-amazon.com/images/I/41ySRhErmUL._SX300_SY300_QL70_FMwebp_.jpg' className='img-fluid w-75' alt='watch' />
+                </Link>
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
                   <h6>Laptop</h6>
                   <p>7 Items</p>
                 </div>
-                <img src='https://m.media-amazon.com/images/I/41cUw9G6-uL._SY300_SX300_QL70_FMwebp_.jpg' className='img-fluid' alt='laptop' />
+                <Link to={'/laptop'}>
+                  <img src='https://m.media-amazon.com/images/I/41cUw9G6-uL._SY300_SX300_QL70_FMwebp_.jpg' className='w-100' alt='laptop' />
+                </Link>
               </div>
               <div className='d-flex gap align-items-center'>
                 <div>
                   <h6>Speakers</h6>
                   <p>3 Items</p>
                 </div>
-                <img src='https://m.media-amazon.com/images/I/51KsXpjCTCS._SX300_SY300_QL70_FMwebp_.jpg' className='img-fluid w-50' alt='speakers' />
+                <Link to={'/speaker'}>
+                  <img src='https://m.media-amazon.com/images/I/51KsXpjCTCS._SX300_SY300_QL70_FMwebp_.jpg' className='img-fluid w-75' alt='speakers' />
+                </Link>
               </div>
             </div>
           </div>

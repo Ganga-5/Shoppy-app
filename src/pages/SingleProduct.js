@@ -8,6 +8,7 @@ import {Color} from '../components/Color';
 import { TbGitCompare } from 'react-icons/tb';
 import { AiOutlineHeart} from 'react-icons/ai';
 import { Container } from '../components/Container';
+import { Link } from 'react-router-dom';
 
 export const SingleProduct = () => {
 
@@ -81,11 +82,11 @@ export const SingleProduct = () => {
                       <div className='main-product-details'>
                         <div className='border-bottom'>
                           <h3 className='title'>
-                            Kids head phones bulk 10pack multi colored for students
+                            Exclusive Swiss Made Luxury Watch Brands
                           </h3>
                         </div>
                         <div className='border-bottom py-3'>
-                          <p className='price'>$ 100</p>
+                          <p className='price'>$ 980</p>
                           <div className='d-flex align-items-center gap-10'>
                             <ReactStars
                               count={5}
@@ -158,9 +159,11 @@ export const SingleProduct = () => {
                             </div>
                             <div className='d-flex align-items-center gap-30 ms-5'>
                               <button className='button border-0' type='submit'>
-                                Add to Cart
+                                <Link to={'/cart'} className='text-secondary'>Add To Cart</Link>
                               </button>
-                              <button className='button signup'>Buy it Now</button>
+                              <button className='button signup'>
+                                <Link to={'/checkout'} className='text-secondary'>Buy It Now</Link>
+                              </button>
                             </div>
                           </div>
                           <div className='d-flex align-items-center gap-15'>

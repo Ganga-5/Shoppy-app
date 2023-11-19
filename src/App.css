@@ -738,6 +738,35 @@ footer .input-group-text{
   }
 /* Shipping Page Ends here */
 
-/* Watch card  */
-
-/* Watch card Ends here */
+/* About us  */
+.about-us h2{
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 10px;
+}
+.about-us p{
+  font-size: 25px;
+  color: var(--color-777777);
+}
+.about-us img{
+  width: 45vh;
+  height: 30vh;
+}
+.privacy-policy h2{
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 10px;
+}
+.privacy-policy p{
+  font-size: 20px;
+  color: var(--color-777777);
+}
+.text-underline{
+  text-decoration: underline;
+  font-size: 17px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+/* About us Ends here */

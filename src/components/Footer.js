@@ -88,18 +88,19 @@ export const Footer = () => {
             <div className='col-3'>
               <h5 className='text-white mb-4'>Account</h5>
               <div className='footer-links d-flex flex-column'>
-                <Link className='text-white py-2 mb-1'>About Us</Link>
-                <Link className='text-white py-2 mb-1'>FAQ</Link>
-                <Link className='text-white py-2 mb-1'>Contact</Link>
+                <Link to={'/about-us'} className='text-white py-2 mb-1'>About Us</Link>
+                <Link to ={'/faq'} className='text-white py-2 mb-1'>FAQ</Link>
+                <Link to={'/contact'} className='text-white py-2 mb-1'>Contact</Link>
               </div>
             </div>
             <div className='col-2'>
               <h5 className='text-white mb-4'>Quick Links</h5>
               <div className='footer-links d-flex flex-column'>
-                <Link className='text-white py-2 mb-1'>Laptops</Link>
-                <Link className='text-white py-2 mb-1'>Headphones</Link>
-                <Link className='text-white py-2 mb-1'>Tablets</Link>
-                <Link className='text-white py-2 mb-1'>Watch</Link>
+                <Link to={'/laptop'} className='text-white py-2 mb-1'>Laptops</Link>
+                <Link to={'/headphones'} className='text-white py-2 mb-1'>Headphones</Link>
+                <Link to={'/mobile'} className='text-white py-2 mb-1'>Mobile</Link>
+                <Link to={'/watch'} className='text-white py-2 mb-1'>Watch</Link>
+                <Link to={'/camera'} className='text-white py-2 mb-1'>Watch</Link>
               </div>
             </div>
           </div>
