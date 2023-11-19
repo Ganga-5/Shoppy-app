@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BiArrowBack } from 'react-icons/bi';
-import watch from '../images/watch.jpg';
 import { Container } from '../components/Container';
 
 export const Checkout = () => {
@@ -129,7 +128,7 @@ export const Checkout = () => {
                                     >
                                         1
                                     </span>
-                                    <img className='img-fluid' src={watch} alt='product' />
+                                    <img className='img-fluid' src='../../images/watch.jpg' alt='product' />
                                 </div>
                                 <div>
                                     <h5 className='total-price'>ahdgkda</h5>
